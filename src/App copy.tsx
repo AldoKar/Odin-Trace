@@ -1,5 +1,5 @@
 import EarthPage from './EarthPage.tsx';
-import React, { use, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { toast, Toaster } from 'sonner';
 

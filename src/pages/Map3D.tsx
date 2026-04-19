@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { Globe, Building2, MapPin, Loader2 } from "lucide-react";
 import { Canvas } from "@react-three/fiber";
 import Earth from "../Earth";

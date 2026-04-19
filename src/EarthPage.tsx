@@ -21,8 +21,8 @@ const EarthPage: React.FC<HomePageProps> = ({
 
   // CHANGED: markers state is now MarkerData[]
   const [markers, setMarkers] = React.useState<MarkerData[] | null>(null);
-  const [loadingMarkers, setLoadingMarkers] = React.useState(false);
-  const [markersError, setMarkersError] = React.useState<string | null>(null);
+  const [_loadingMarkers, setLoadingMarkers] = React.useState(false);
+  const [_markersError, setMarkersError] = React.useState<string | null>(null);
 
   React.useEffect(() => {
     if (propSelectedDataset) {

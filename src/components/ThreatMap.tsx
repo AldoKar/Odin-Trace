@@ -20,7 +20,7 @@ const countryData = threatLocations.map((t) => {
     Vietnam: "vn",
   };
   return {
-    country: countryMap[t.country] || "us",
+    country: (countryMap[t.country] || "us") as "us",
     value: t.severity === "critical" ? 100 : t.severity === "high" ? 75 : t.severity === "medium" ? 50 : 25,
   };
 });
